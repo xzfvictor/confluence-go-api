@@ -23,7 +23,7 @@ func NewAPI(location string, username string, token string) (*API, error) {
 		u.Path += "/"
 	}
 
-	u.Path += "wiki/rest/api"
+	u.Path += "rest/api"
 
 	a := new(API)
 	a.endPoint = u
